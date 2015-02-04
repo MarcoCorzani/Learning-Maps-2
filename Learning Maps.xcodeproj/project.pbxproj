@@ -13,6 +13,9 @@
 		A928E76E1A5E9FB300B98B24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A928E76D1A5E9FB300B98B24 /* Images.xcassets */; };
 		A928E7711A5E9FB300B98B24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A928E76F1A5E9FB300B98B24 /* LaunchScreen.xib */; };
 		A928E77D1A5E9FB300B98B24 /* Learning_MapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A928E77C1A5E9FB300B98B24 /* Learning_MapsTests.swift */; };
+		A928E7871A5EA00C00B98B24 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A928E7861A5EA00C00B98B24 /* MapKit.framework */; };
+		A928E7891A5F21D000B98B24 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A928E7881A5F21D000B98B24 /* CoreLocation.framework */; };
+		A928E78D1A5F3D1D00B98B24 /* knob.png in Resources */ = {isa = PBXBuildFile; fileRef = A928E78C1A5F3D1D00B98B24 /* knob.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		A928E7761A5E9FB300B98B24 /* Learning MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A928E77B1A5E9FB300B98B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A928E77C1A5E9FB300B98B24 /* Learning_MapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_MapsTests.swift; sourceTree = "<group>"; };
+		A928E7861A5EA00C00B98B24 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A928E7881A5F21D000B98B24 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A928E78C1A5F3D1D00B98B24 /* knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knob.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A928E7891A5F21D000B98B24 /* CoreLocation.framework in Frameworks */,
+				A928E7871A5EA00C00B98B24 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +67,12 @@
 		A928E7581A5E9FB300B98B24 = {
 			isa = PBXGroup;
 			children = (
+				A928E7881A5F21D000B98B24 /* CoreLocation.framework */,
+				A928E7861A5EA00C00B98B24 /* MapKit.framework */,
 				A928E7631A5E9FB300B98B24 /* Learning Maps */,
 				A928E7791A5E9FB300B98B24 /* Learning MapsTests */,
 				A928E7621A5E9FB300B98B24 /* Products */,
+				A928E78C1A5F3D1D00B98B24 /* knob.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A928E76C1A5E9FB300B98B24 /* Main.storyboard in Resources */,
+				A928E78D1A5F3D1D00B98B24 /* knob.png in Resources */,
 				A928E7711A5E9FB300B98B24 /* LaunchScreen.xib in Resources */,
 				A928E76E1A5E9FB300B98B24 /* Images.xcassets in Resources */,
 			);
